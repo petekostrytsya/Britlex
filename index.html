@@ -14,38 +14,42 @@
 </head>
 <body>
     <header class="page-header">
-        <a href="">Brit<span>lex</span></a>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Skills</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Contacts</a></li>
+        <div class="container page-header-contaniar">
+        <nav class="page-nav">
+        <a class="logo" href="">Brit<span class="logo-lex">lex</span></a>
+        <ul class="menu">
+            <li><a class="nav-link" href="">Home</a></li>
+            <li><a class="nav-link" href="">Skills</a></li>
+            <li><a class="nav-link" href="">About Us</a></li>
+            <li><a class="nav-link" href="">Pricing</a></li>
+            <li><a class="nav-link" href="">Contacts</a></li>
         </ul>
-        <button type="button">Let’s Talk</button>
+        </nav>
+        <button class="header-button" type="button">Let’s Talk</button>
+        </div>
     </header>
     <main>
         <section class="hero">
             <h1>Learn Any Foreign Language</h1>
-            <svg>
-                <use></use>
+
+            <svg width="85px" height="85px">
+                <use href="./img/sprite.svg#icon-bulb-icon"></use>
             </svg>
+
             <p>With our teachers who write a program for
             each student, you will be able to make your
             first sketch after the first lesson.</p>
+            
             <button type="button">Get started</button>
-            <svg>
-                <use></use>
-            </svg>
+
+            <img src="./img/learning-languages.jpg" alt="learning-languages" width="654px" height="510px">
         </section>
 
         <section class="skills">
             <h2>Skills</h2>
             <ul>
                 <li>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/Shared goals.jpg" alt="Shared goals" width="390px" height="390px">
                     <h3>Speaking</h3>
                     <p>Improve your English skills and confidence.
                     Live classes and interactive lessons online.
@@ -57,9 +61,7 @@
                     <button type="button">Learn more</button>   
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/Typewriter.jpg" alt="Typewriter" width="390px" height="264px">
                     <h3>Writing</h3>
                     <p>One of the most important and extensive
                     areas of natural science, the science that
@@ -67,9 +69,7 @@
                     <button type="button">Learn more</button>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/House bookshelves.jpg" alt="House bookshelves" width="390px" height="264px">
                     <h3>Reading</h3>
                     <p>Perception and response actions of the user
                     resulting from the use and/or upcoming use
@@ -81,9 +81,7 @@
                     <p>Here you can find activities to practise
                     your listening skills. Listening will help you to improve your understanding</p>
                     <button type="button">Learn more</button>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/Podcast audience.jpg" alt="Podcast audience" width="408px" height="274px">
                 </li>
             </ul>
         </section>
@@ -100,18 +98,14 @@
             <h2>6</h2>
             <p>Foreign
             languages</p>
-            <svg>
-                <use></use>
-            </svg>
+            <img src="./img/Business competition.jpg" alt="Business competition" width="540px" height="540px">
         </section>
 
         <section class="pricing">
             <h2>Pricing</h2>
             <ul>
                 <li>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/online.jpg" alt="online" width="426px" height="320px">
                     <h3>Self-study online course</h3>
                     <p>Start learning English online in live classes
                     with qualified EC teachers and students
@@ -119,18 +113,14 @@
                     <p>£5.99 per month</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/lesson.jpg" alt="lesson" width="426px" height="320px">
                     <h3>Live online classes</h3>
                     <p>Interactive group classes with expert
                     teachers. Free 7-day trial</p>
                     <p>£12.99 per month</p>
                 </li>
                 <li>
-                    <svg>
-                        <use></use>
-                    </svg>
+                    <img src="./img/webinar.jpg" alt="webinar" width="426px" height="320px">
                     <h3>Personal Tuition</h3>
                     <p>Online one-to-one English tutoring – enjoy
                     our first session for only $1</p>
@@ -141,7 +131,7 @@
 
         <section class="contact-us">
             <svg>
-                <use></use>
+                <use href="./img/sprite.svg#icon-contact"></use>
             </svg>
             <h2>Contact Us</h2>
             <p>Discover your current English level by taking our free online English test. Sign up to our newsletter for learning tips
