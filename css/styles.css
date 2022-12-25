@@ -27,13 +27,17 @@ img {
     width: 1338px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 131px;
+    padding: 0 15px;
 }
 
 
 
+.page-header {
+    padding: 55px 0;
+}
 
 .logo {
+    margin-right: 236px;
     font-weight: 400;
     font-size: 36px;
     line-height: 1.5;
@@ -71,6 +75,7 @@ img {
 
 .page-header-contaniar {
     display: flex;
+    
 }
 
 .page-nav {
@@ -78,9 +83,15 @@ img {
     align-items: center;
 }
 
+.nav-link {
+    padding: 20px 0;
+}
+
 .menu {
     display: flex;
-    flex-wrap: wrap;
     gap: 50px;
 }
 
+.header-button {
+    margin-left: auto;
+}
