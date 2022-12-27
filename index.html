@@ -35,7 +35,8 @@
             <div class="container hero-content">
                 <div>
                     <div class="title-lamp">
-                        <h1 id="Home" class="title-hero">Learn<br>Any Foreign Language</h1>
+                        <h1 id="Home" class="title-hero wow animate__animated animate__slideInLeft"
+                            data-wow-duration="2s" data-wow-delay="1s">Learn<br>Any Foreign Language</h1>
                             <svg width="85px" height="85px">
                                 <use href="./img/sprite.svg#icon-bulb-icon"></use>
                             </svg>
@@ -48,13 +49,14 @@
                     <button class="button-hero" type="button">Get started</button>
                 </div>
                 
-            <img src="./img/learning-languages.jpg" alt="learning-languages" width="654" height="510">
+            <img class="wow animate__animated animate__zoomIn"  src="./img/learning-languages.jpg" alt="learning-languages" width="654" height="510">
             </div>
         </section>
 
         <section class="skills">
             <div class="container">
-                <h2 id="Skills" class="title-section animate__animated animate__wobble">Skills</h2>
+                <h2 id="Skills" class="title-section wow animate__animated animate__wobble"
+                    data-wow-delay="500ms">Skills</h2>
                     <div class="skills-list">
                         <div>
                             <div class="skills-link-speaking">
@@ -105,7 +107,8 @@
         <section class="about">
             <div class="container about-content">
                 <div>
-                <h2 id="About" class="title-about">About Us</h2>
+                <h2 id="About" class="title-about wow animate__animated animate__bounceInRight"
+                    data-wow-delay="500ms">About Us</h2>
                     <p class="text-about">The model offers a framework for discussing problems related to the user's experience, as well as possible ways and
                         means of solving them. Application development begins at the top level (strategy), where the future software product is
                         described quite abstractly from the point of view of the expectations of both users and the customer.
@@ -131,31 +134,32 @@
 
         <section class="pricing">
             <div class="container">
-            <h2 id="Pricing" class="title-section">Pricing</h2>
-            <ul class="list-pricing" >
-                <li class="link-pricing">
-                    <img src="./img/online.jpg" alt="online" width="426" height="320">
-                    <h3 class="title-pricing">Self-study online course</h3>
-                    <p class="text-pricing">Start learning English online in live classes
-                    with qualified EC teachers and students
-                    from all over the world.</p>
-                    <p class="price self-study">£5.99 <span class="month">per month</span></p>
-                </li>
-                <li class="link-pricing">
-                    <img src="./img/lesson.jpg" alt="lesson" width="426" height="320">
-                    <h3 class="title-pricing">Live online classes</h3>
-                    <p class="text-pricing">Interactive group classes with expert
-                    teachers. Free 7-day trial</p>
-                    <p class="price">£12.99 <span class="month">per month</span></p>
-                </li>
-                <li class="link-pricing">
-                    <img src="./img/webinar.jpg" alt="webinar" width="426" height="320">
-                    <h3 class="title-pricing">Personal Tuition</h3>
-                    <p class="text-pricing">Online one-to-one English tutoring – enjoy
-                    our first session for only $1</p>
-                    <p class="price">£12.99 <span class="month">per month</span></p>
-                </li>
-            </ul>
+            <h2 id="Pricing" class="title-section wow animate__animated animate__wobble"
+                data-wow-delay="500ms">Pricing</h2>
+                    <ul class="list-pricing" >
+                        <li class="link-pricing">
+                            <img src="./img/online.jpg" alt="online" width="426" height="320">
+                            <h3 class="title-pricing">Self-study online course</h3>
+                            <p class="text-pricing">Start learning English online in live classes
+                            with qualified EC teachers and students
+                            from all over the world.</p>
+                            <p class="price self-study">£5.99 <span class="month">per month</span></p>
+                        </li>
+                        <li class="link-pricing">
+                            <img src="./img/lesson.jpg" alt="lesson" width="426" height="320">
+                            <h3 class="title-pricing">Live online classes</h3>
+                            <p class="text-pricing">Interactive group classes with expert
+                            teachers. Free 7-day trial</p>
+                            <p class="price">£12.99 <span class="month">per month</span></p>
+                        </li>
+                        <li class="link-pricing">
+                            <img src="./img/webinar.jpg" alt="webinar" width="426" height="320">
+                            <h3 class="title-pricing">Personal Tuition</h3>
+                            <p class="text-pricing">Online one-to-one English tutoring – enjoy
+                            our first session for only $1</p>
+                            <p class="price">£12.99 <span class="month">per month</span></p>
+                        </li>
+                    </ul>
             </div>
         </section>
 
@@ -165,8 +169,9 @@
                     <use href="./img/sprite.svg#icon-contact"></use>
                 </svg>
                     <div class="form-desc">
-                    <h2 id="Contacts" class="title-contacts">Contact Us</h2>
-                        <p class="text-contacts">Discover your current English level by taking our free online English test.
+                    <h2 id="Contacts" class="title-contacts wow animate__animated animate__bounceInRight"
+                        data-wow-delay="500ms">Contact Us</h2>
+                            <p class="text-contacts">Discover your current English level by taking our free online English test.
                             Sign up to our newsletter for learning tips
                             and free resources</p>
                                 <div class="form-callback">
@@ -192,5 +197,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
