@@ -18,11 +18,11 @@
         <nav class="page-nav">
         <a class="logo" href="">Brit<span class="logo-lex">lex</span></a>
         <ul class="menu">
-            <li><a class="nav-link" href="">Home</a></li>
-            <li><a class="nav-link" href="">Skills</a></li>
-            <li><a class="nav-link" href="">About Us</a></li>
-            <li><a class="nav-link" href="">Pricing</a></li>
-            <li><a class="nav-link" href="">Contacts</a></li>
+            <li><a class="nav-link" href="#Home">Home</a></li>
+            <li><a class="nav-link" href="#Skills">Skills</a></li>
+            <li><a class="nav-link" href="#About">About Us</a></li>
+            <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#Contacts">Contacts</a></li>
         </ul>
         </nav>
         <button class="header-button" type="button">Let’s Talk</button>
@@ -34,7 +34,7 @@
             <div class="container hero-content">
                 <div>
                     <div class="title-lamp">
-                        <h1 class="title-hero">Learn <br>Any Foreign Language</br></h1>
+                        <h1 id="Home" class="title-hero">Learn<br>Any Foreign Language</h1>
                             <svg width="85px" height="85px">
                                 <use href="./img/sprite.svg#icon-bulb-icon"></use>
                             </svg>
@@ -53,10 +53,10 @@
 
         <section class="skills">
             <div class="container">
-                <h2 class="title-section">Skills</h2>
-                    <ul class="skills-list">
+                <h2 id="Skills" class="title-section">Skills</h2>
+                    <div class="skills-list">
                         <div>
-                            <li class="skills-link-speaking">
+                            <div class="skills-link-speaking">
                                 <img src="./img/Shared-goals.jpg" alt="Shared goals" width="390" height="390">
                                 <h3 class="skills-title">Speaking</h3>
                                 <p class="text-skills">Improve your English skills and confidence.
@@ -68,26 +68,26 @@
                                 and resources – all designed for adult language learners.
                                 </p>
                                 <button class="skills-btn" type="button">Learn more</button>   
-                            </li>
+                            </div>
                         </div>
                         <div class="link-group">
-                            <li class="skills-link-writing">
+                            <div class="skills-link-writing">
                                 <img src="./img/Typewriter.jpg" alt="Typewriter" width="390" height="264">
                                 <h3 class="skills-title">Writing</h3>
                                 <p class="text-skills">One of the most important and extensive
                                 areas of natural science, the science that
                                 studies substances, also their composition</p>
                                 <button class="skills-btn" type="button">Learn more</button>
-                            </li>
-                            <li class="skills-link-reading">
+                                </div>
+                            <div class="skills-link-reading">
                                 <img src="./img/House-bookshelves.jpg" alt="House bookshelves" width="390" height="264">
                                 <h3 class="skills-title">Reading</h3>
                                 <p class="text-skills">Perception and response actions of the user
                                 resulting from the use and/or upcoming use
                                 of the product, system or service</p>
                                 <button class="skills-btn" type="button">Learn more</button>
-                            </li>
-                            <li class="skills-link-listening">
+                                </div>
+                            <div class="skills-link-listening">
                                 <div>
                                     <h3 class="skills-title">Listening</h3>
                                     <p class="text-skills">Here you can find activities to practise
@@ -95,16 +95,16 @@
                                     <button class="skills-btn" type="button">Learn more</button>
                                 </div>
                                     <img src="./img/Podcast-audience.jpg" alt="Podcast audience" width="408" height="274">
-                            </li>
+                            </div>
                         </div>
-                    </ul>
+                    </div>
             </div>
         </section>
 
         <section class="about">
             <div class="container about-content">
                 <div>
-                <h2 class="title-about">About Us</h2>
+                <h2 id="About" class="title-about">About Us</h2>
                     <p class="text-about">The model offers a framework for discussing problems related to the user's experience, as well as possible ways and
                         means of solving them. Application development begins at the top level (strategy), where the future software product is
                         described quite abstractly from the point of view of the expectations of both users and the customer.
@@ -120,7 +120,7 @@
                             </div>
                             <div>
                                 <h2>6</h2>
-                                <p class="about-text">Foreign <br>languages</br></p>
+                                <p class="about-text">Foreign<br>languages</p>
                             </div>
                         </div>
                 </div>
@@ -130,15 +130,15 @@
 
         <section class="pricing">
             <div class="container">
-            <h2 class="title-section">Pricing</h2>
+            <h2 id="Pricing" class="title-section">Pricing</h2>
             <ul class="list-pricing" >
                 <li class="link-pricing">
                     <img src="./img/online.jpg" alt="online" width="426" height="320">
                     <h3 class="title-pricing">Self-study online course</h3>
-                    <p class="text-pricing self-study">Start learning English online in live classes
+                    <p class="text-pricing">Start learning English online in live classes
                     with qualified EC teachers and students
                     from all over the world.</p>
-                    <p class="price">£5.99 <span class="month">per month</span></p>
+                    <p class="price self-study">£5.99 <span class="month">per month</span></p>
                 </li>
                 <li class="link-pricing">
                     <img src="./img/lesson.jpg" alt="lesson" width="426" height="320">
@@ -159,28 +159,36 @@
         </section>
 
         <section class="contact-us">
-            <div class="container">
-                <svg>
+            <div class="container contacts-content">
+                <svg width="425" height="430">
                     <use href="./img/sprite.svg#icon-contact"></use>
                 </svg>
-                    <h2 class="title-section">Contact Us</h2>
-                        <p>Discover your current English level by taking our free online English test.
+                    <div class="form-desc">
+                    <h2 id="Contacts" class="title-contacts">Contact Us</h2>
+                        <p class="text-contacts">Discover your current English level by taking our free online English test.
                             Sign up to our newsletter for learning tips
                             and free resources</p>
-                                <form action="E-mail">Enter Your E-mail</form>
-                                    <button type="button">Subscribe</button>
+                                <div class="form-callback">
+                                <label>
+                                    <input class="form-input-footer" type="email" name="user_email" placeholder="Enter Your E-mail" required>
+                                </label>
+                                    <button class="button-form" type="submit">Subscribe</button>
+                                </div>
+                    </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="container">
-            <a href="">Brit<span>lex</span></a>
-                <ul>
-                    <li><a href="">Terms and Conditions</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Cookie Policy</a></li>
+        <div class="container footer-content">
+            <div class="footerbox-content">
+            <a class="logo-footer" href="">Brit<span class="logo-lex">lex</span></a>
+                <ul class="footer-list">
+                    <li><a class="link-footer" href="">Terms and Conditions</a></li>
+                    <li><a class="link-footer" href="">Privacy Policy</a></li>
+                    <li><a class="link-footer" href="">Cookie Policy</a></li>
                 </ul>
+            </div>
         </div>
     </footer>
 </body>
